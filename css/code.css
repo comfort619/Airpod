@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.code{
+    display: flex;
+    font-size: 12px;
+    color: grey;
+    text-align: justify;
+    
+    margin: auto;
+    border-bottom:1px solid grey;
+}
+
+.verge li{
+    list-style: none;
+    color: grey;
+    line-height:25px;
+}
+.verge a{
+    color: grey;
+}
+.verge h3{
+    color: white;
+    font-size:12px ;
+}
+
+.verge{
+    display: flex;
+    font-size: 12px;
+    color: grey;
+
+    justify-content: space-around;
+    margin: auto;
+    
+
+}
+.verge1{
+    display:flex;
+    color: grey;
+    border-bottom: 1px solid grey;
+    font-size: 12px;
+    
+
+}
+.verge2{
+    display: flex;
+    color: grey;
+    font-size: 12px;
+}
+.verge2 a{
+    color: lightgrey;
+}
+
+.lit{
+    color: lightgrey;
+}
+.lit:hover{
+    color: white;
+}
+
+.call{
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+    word-spacing: 25px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.call a{
+    color: grey;
+}
+.call a:hover{
+    color: white;
+}
+
+@media (min-width: 1200px){
+.container
+.main {
+    max-width: 1035px;
+    margin-left: 312px;
+}}
